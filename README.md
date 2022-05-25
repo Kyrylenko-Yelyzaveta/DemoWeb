@@ -3,7 +3,7 @@ Double request application
 
 ##Used 
 
-`Data binding`, `Navigation componen`, `MVP`, `Fragments`,`ShapeDrawable`, `Klaxon`, `Change mipmap (icon)`, `Single requests`
+`Data binding`, `Navigation componen`, `MVP`, `Fragments`,`ShapeDrawable`, `Klaxon`, `Change mipmap (icon)`, `Single requests`, `APK`, 
 
 
 ## Main task

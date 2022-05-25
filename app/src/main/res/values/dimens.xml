@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttons_width">300dp</dimen>
+    <dimen name="images_side">300dp</dimen>
+    <dimen name="text_size">32sp</dimen>
+</resources>

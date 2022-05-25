@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/loadingFragment">
+
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.demoweb.view.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" >
+        <action
+            android:id="@+id/action_webViewFragment_to_textFragment"
+            app:destination="@id/textFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/textFragment"
+        android:name="com.example.demoweb.view.TextFragment"
+        android:label="fragment_text"
+        tools:layout="@layout/fragment_text" >
+        <action
+            android:id="@+id/action_textFragment_to_imageFragment"
+            app:destination="@id/imageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.demoweb.view.ImageFragment"
+        android:label="fragment_image"
+        tools:layout="@layout/fragment_image" >
+        <action
+            android:id="@+id/action_imageFragment_to_loadingFragment"
+            app:destination="@id/loadingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.example.demoweb.view.EmptyFragment"
+        android:label="fragment_loading"
+        tools:layout="@layout/fragment_empty" >
+        <action
+            android:id="@+id/action_loadingFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_to_textFragment"
+            app:destination="@id/textFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_to_imageFragment"
+            app:destination="@id/imageFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_self"
+            app:destination="@id/loadingFragment" />
+    </fragment>
+</navigation>

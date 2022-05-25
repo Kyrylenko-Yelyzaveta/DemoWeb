@@ -25,6 +25,6 @@ Application screen example:
 
 ## Highlight
 		
-![]([ezgif.com-gif-maker.gif](https://github.com/Kyrylenko-Yelyzaveta/DemoWeb/blob/master/ezgif.com-gif-maker.gif))
+![](ezgif.com-gif-maker.gif)
 		
 

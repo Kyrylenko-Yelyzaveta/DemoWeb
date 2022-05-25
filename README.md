@@ -1,6 +1,11 @@
 # DemoWeb
 Double request application
 
+##Used 
+
+`Data binding`, `Navigation componen`, `MVP`, `Fragments`,`ShapeDrawable`, `Klaxon`, `Change mipmap (icon)`, `Single requests`
+
+
 ## Main task
 Develop an android application that:
 When launched, it makes a request to
@@ -18,13 +23,14 @@ and further depending on the value of the type attribute:
  - type=image: the application displays a screen with the image from the url attribute of the response to request B;
  - type=game ignore.
 There is a "next" on the screen, clicking on which causes the application to display the next object from A. If the application is already displaying the last object from A, then pressing this button should return it to the first object in the list.
-Application screen example:
 
 
- 
 
 ## Highlight
 		
 ![](ezgif.com-gif-maker.gif)
+
+
+
 		
 

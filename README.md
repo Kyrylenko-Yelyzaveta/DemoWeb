@@ -21,17 +21,10 @@ There is a "next" on the screen, clicking on which causes the application to dis
 Application screen example:
 
 
-## Extra tasks
-
- - Add ability to go back in webview when clicked
-buttons back.
- - Save the parameters sent by the server and use them when
-subsequent launches.
- - Run the application in full-screen mode, hiding the system ui.
- - Set any application icon.
+ 
 
 ## Highlight
 		
-			![Alt Text](img src="https://github.com/Kyrylenko-Yelyzaveta/DemoWeb/blob/master/ezgif.com-gif-maker.gif")
+			![](https://github.com/Kyrylenko-Yelyzaveta/DemoWeb/blob/master/ezgif.com-gif-maker.gif)
 		
 

@@ -32,6 +32,6 @@ subsequent launches.
 
 ## Highlight
 		
-			<img src="https://github.com/Kyrylenko-Yelyzaveta/DemoWeb/blob/master/ezgif.com-gif-maker.gif" width="50" height="100"/>
+			![Alt Text](img src="https://github.com/Kyrylenko-Yelyzaveta/DemoWeb/blob/master/ezgif.com-gif-maker.gif")
 		
 

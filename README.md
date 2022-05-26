@@ -28,7 +28,7 @@ There is a "next" on the screen, clicking on which causes the application to dis
 
 ## Highlight
 		
-![](ezgif.com-gif-1.gif)
+![](gifDemoWeb.gif)
 
 
 
